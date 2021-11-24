@@ -27,7 +27,7 @@ I've decided to re-write my software again, but this time for the TENANT.
 
 LETCOMM
 
-Not bought the domain but will display progress at; 
+Not bought the domain yet but will display progress at; 
 
 https://jamespankhurst.co.uk/letcomm
 
