@@ -1,10 +1,9 @@
-/*==============================*/
-/*====== JAMES PANKHURST =======*/
-/* www.jamespankhurst.co.uk/odd */
-/* jamespankhurst180@gmail.com  */
-/* github.com/jamespankhurst    */
-/* gitlab.com/jamespankhurst180 */
-/*==============================*/
+/*==================================*/
+/*========== LETCOMM ===============*/
+/* www.jamespankhurst.co.uk/letcomm */
+/* jamespankhurst180@gmail.com      */
+/* github.com/jamespankhurst        */
+/*==================================*/
 
 #loading_bar{
 	display: block; 
@@ -32,78 +31,27 @@
 .flex-container > #arena-container { 
 	display: block; 
 	position: absolute; 
-	top: 0px; 
+	top: 60px; 
 	left: 0px; 
 	width: 360px; 
 	height: 470px; 
 	} 
 
-#i_eyehorus {
-display: block;
-position: absolute;
-top: 0px;
-left: 0px;
-width: 100%;
-height: 120px;
-border: 0px solid #fff;
-}
-#i_ey_ani_1 { display: block; position: absolute; top: 160px; left: 0px; width: 100%; }
-
-#i_orionbelt {
-display: block;
-position: absolute;
-top: 120px;
-left: 0px;
-width: 100%;
-height: 120px;
-border: 0px solid pink;
-}
-#i_or_ani_1 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 120px; }
-#i_or_ani_2 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100px; }
-
-#i_dice-shaker {
-display: block;
-position: absolute;
-top: 240px;
-left: 0px;
-width: 100%;
-height: 80px;
-border: 0px solid red;
-}
-#i_sh_ani_1 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 80px; }
-#i_sh_ani_2 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 80px; }
-
-#i_dice-holder {
-display: block;
-position: absolute;
-top: 320px;
-left: 0px;
-width: 100%;
-height: 80px;
-border: 0px solid #fff;
-}
-#i_ho_ani_1 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 80px; }
-#i_ho_ani_2 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 80px; }
-
-
-
-#i_pyramidbelt {
-display: none;
-position: absolute;
-top: 400px;
-left: 0px;
-width: 100%;
-height: 70px;
-border: 0px solid green;
-}
-#i_py_ani_1 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 120px; }
-#i_py_ani_2 { display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 120px; }
-
-
-#orion { 
+#lclogo { 
 	display: block; 
 	position: absolute; 
-	top: 0px; 
+	top: 20px; 
+	left: 10px; 
+	width: 310px; 
+	height: 100px; 
+	border: 0px solid green; 
+}
+
+
+#opening-txt { 
+	display: block; 
+	position: absolute; 
+	top: 120px; 
 	left: 0px; 
 	width: 100%; 
 	height: 150px; 
