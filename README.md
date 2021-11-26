@@ -19,5 +19,7 @@ And the merry-go-round continues, trouble is I KNOW the information is at their 
 
 I've decided to re-write my software again, but this time for the TENANT.
 
+This time the tenant will issue the 'access keys'....
+
 LETCOMM
 
