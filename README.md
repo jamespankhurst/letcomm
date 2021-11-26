@@ -1,4 +1,13 @@
 # letcomm
+
+Times have changed. 
+
+Property ownership in the UK is becoming a distant hope, rather than an expectation.
+
+For many nowadays, and for future generations renting is for life.
+
+The current rights and controls for the tenant are outrageous, and HAVE to completely overhauled. (What happened to Section 21 removal as promised Mr B J).
+
 In the pre-internet ninties, I was involved in developing insurance claim software, with particular reference to property maintenance.
 
 I developed the first web version of this software in classic ASP, claimtrack.co.uk, then re-coded for .NET to produce the current version trackpro.co.uk.

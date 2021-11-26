@@ -28,14 +28,6 @@
 	width: 400px; 
 	height: 470px; 
 }
-.flex-container > #arena-container { 
-	display: block; 
-	position: absolute; 
-	top: 40px; 
-	left: 0px; 
-	width: 390px; 
-	height: 470px; 
-	} 
 
 #lclogo { 
 	display: block; 
@@ -48,15 +40,36 @@
 }
 
 
-#opening-txt { 
+#lclogo-txt { 
 	display: block; 
 	position: absolute; 
-	top: 110px; 
+	top: 120px; 
 	left: 0px; 
-	width: 100%; 
-	height: 150px; 
+	width: 400px; 
+	height: 80px; 
 	border: 0px solid green; 
 }
+
+#githublink { 
+	display: block; 
+	position: absolute; 
+	top: 180px; 
+	left: 0px; 
+	width: 100%; 
+	height: 40px; 
+	border: 0px solid green; 
+}
+
+
+#arena-container { 
+	display: block; 
+	position: absolute; 
+	top: 220px; 
+	left: 0px; 
+	width: 390px; 
+	height: 470px; 
+	} 
+
 
 #comm_panel { 
 	display: block; 

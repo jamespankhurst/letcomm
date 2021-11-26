@@ -16,7 +16,7 @@ function restart(){ window.location.replace("index.html"); };
 /*------------------*/
 /*--- LOAD PAGE  ---*/
 /*------------------*/ 
-function loadPage(intSect, strTitle) {
+function loadPage(intSect, strFile) {
 	let xhttp;
 	xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -24,7 +24,7 @@ function loadPage(intSect, strTitle) {
 	document.getElementById("arena-container").innerHTML =  this.responseText;
 	}
 };
-xhttp.open("GET", "assets/xhttp/arena.html", true);
-xhttp.onload = function () {  diceRoll(pid, rollNo); };
+xhttp.open("GET", "assets/xhttp/" + strFile, true);
+//xhttp.onload = function () {  diceRoll(pid, rollNo); };
 xhttp.send();
 };
