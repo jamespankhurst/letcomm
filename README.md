@@ -1,19 +1,13 @@
 # letcomm
-In the late ninties, I was involved in developing insurance claim software, with particular reference to property maintenance.
+In the pre-internet ninties, I was involved in developing insurance claim software, with particular reference to property maintenance.
 
-It gave the landlord/property management company control of daily issues; roof leaks, gutters blocked, broken windows, etc.
+I developed the first web version of this software in classic ASP, claimtrack.co.uk, then re-coded for .NET to produce the current version trackpro.co.uk.
 
-The system issued 'access keys' to third parties; roofers, builders, surveyors....but NEVER tenants.
+The system works by issuing 'access keys' (my nineties version of a ssh - without secure) to third parties; roofers, builders, surveyors....and tenants.
 
-In the early 2000's I developed the first web version of this software in vbScript, classic ASP: 
+Even though the system was now internet based and the landlords/property management companies (PMCs) had the ability to allow tenant access, they rarely, if ever, did. 
 
-No Longer active(claimtrack.co.uk) 
-
-I then re-wrote in vb.NET, ASP.NET and is the current version:
-
-http://www.trackpro.co.uk
-
-I am now a tenant, and this worm has turned!
+I am now a tenant.
 
 The communication with my Property Managemnt Company is APALLING.
 
@@ -26,9 +20,4 @@ And the merry-go-round continues, trouble is I KNOW the information is at their 
 I've decided to re-write my software again, but this time for the TENANT.
 
 LETCOMM
-
-Not bought the domain yet but will display progress at; 
-
-https://jamespankhurst.co.uk/letcomm
-
 
