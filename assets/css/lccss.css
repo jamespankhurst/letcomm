@@ -57,66 +57,6 @@
 	height: 150px; 
 	border: 0px solid green; 
 }
-#e_orion { 
-	display: block; 
-	position: absolute; 
-	top: 0px; 
-	left: 0px; 
-	width: 100%; 
-	height: 150px; 
-	border: 0px solid green; 
-}
-#asteriod { 
-	display: block; 
-	position: absolute; 
-	top: 150px; 
-	left: 0px; 
-	width: 100%; 
-	height: 200px; 
-	padding: 0px; 
-	border: 0px solid #fff; 
-}
-#e_asteriod { 
-	display: block; 
-	position: absolute; 
-	top: 150px; 
-	left: 0px; 
-	width: 100%; 
-	height: 200px; 
-	padding: 0px; 
-	border: 0px solid #fff; 
-}
-
-#pyramid { 
-	display: block; 
-	position: absolute; 
-	top: 350px; 
-	left: 0px; 
-	width: 100%; 
-	height: 120px; 
-	border: 0px solid green; 
-}
-
-#e_pyramid { 
-	display: block; 
-	position: absolute; 
-	top: 350px; 
-	left: 0px; 
-	width: 100%; 
-	height: 120px; 
-	border: 0px solid green; 
-}
-
-#asteriod2 { 
-	display: block; 
-	position: absolute; 
-	top: 150px; 
-	left: 0px; 
-	width: 100%; 
-	height: 200px; 
-	padding: 0px; 
-	border: 0px solid #fff; 
-}
 
 #comm_panel { 
 	display: block; 
