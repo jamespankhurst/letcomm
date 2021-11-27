@@ -15,7 +15,7 @@
   <script src="assets/js/preloadimages.js"></script>
    <style>
      body { 
-     background-color: #999; 
+     background-color: #000; 
      font-size: 0.8em;
      }
    </style>
@@ -24,31 +24,43 @@
  <body>
   <div class="flex-container">
 
-    <div id="page-container" class="w3-container">
+    <div id="page-container" class="w3-container w3-text-white">
      
       <div id="lclogo" class="w3-container">
-        <img src="assets/img/lclogo_bg_310x100.png" alt="letcomm" />
+        <img src="assets/img/lclogo_bg_155x50.png" alt="letcomm" />
       </div>
+
       <div id="lclogo-txt" class="w3-container w3-text-black">
         <h4 class="w3-text-white">Endeavouring to provide a digital comminication channel for rental <i>tenants</i>.</h4>      
       </div>
-      <div id="githublink">
-        <p>repo: <a href="https://github.com/jamespankhurst/letcomm"  target="_blank">github.com/jamespankhurst/letcomm</a></p>
-      </div>  
-
+      
       <div id="arena-container" class="w3-container">
 
-        <p>Times have changed. 
-<br />
-Property ownership in the UK is becoming a distant hope, rather than an expectation.
-<br />
-For many nowadays, and for future generations renting is for life.
-<br />
-The current rights and controls for the tenant are outrageous, and HAVE to completely overhauled. </p>
-      <br /> 
-      <button onclick="loadPage(1, 'intro.html')">intro...</button> 
+        <div class="w3-panel w3-yellow">
+          <h2 class="w3-opacity">Times have changed.</h2>
+        </div>
+        
+                   
+        <div class="w3-panel w3-leftbar w3-border-yellow">
+          Property ownership in the UK is becoming a <i>hope</i>, rather than an <i>expectation</i>.
+        </div>
+        <div class="w3-panel w3-leftbar w3-border-yellow">
+          For many, unlike previous generations, renting is for <i>life</i>.
+        </div>
+
+        <div class="w3-panel w3-leftbar w3-border-yellow">
+          Currently the landlords/property management companies hold <i>all</i> the cards..this HAS to change.
+        </div>
+        
+      <button id="startbutton" class="game-button" onclick="loadPage(1, 'intro')">find out more...</button> 
       </div>
       <!-- end arena-container -->
+      
+        
+      
+    <div id="githublink"  class="w3-panel">
+        repo: <a href="https://github.com/jamespankhurst/letcomm"  target="_blank">github.com/jamespankhurst/letcomm</a>
+      </div>  
     </div>
      <!-- end page-container -->
   </div>

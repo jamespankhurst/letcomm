@@ -24,7 +24,7 @@ function loadPage(intSect, strFile) {
 	document.getElementById("arena-container").innerHTML =  this.responseText;
 	}
 };
-xhttp.open("GET", "assets/xhttp/" + strFile, true);
+xhttp.open("GET", "assets/xhttp/" + strFile + ".html", true);
 //xhttp.onload = function () {  diceRoll(pid, rollNo); };
 xhttp.send();
 };
