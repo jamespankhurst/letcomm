@@ -30,24 +30,20 @@
 }
 
 #lclogo { 
-	display: block; 
+	display: inline-block; 
 	position: absolute; 
 	top: 10px; 
 	left: 0px; 
 	width: 155px; 
 	height: 60px; 
-	border: 0px solid green; 
 }
 
-
 #lclogo-txt { 
-	display: block; 
+	display: inline-block; 
 	position: absolute; 
-	top: 50px; 
-	left: 0px; 
-	width: 400px; 
-	height: 80px; 
-	border: 0px solid green; 
+	font-size: 10px;
+	top: 10px; 
+	left: 165px; 
 }
 
 
@@ -55,7 +51,8 @@
 #arena-container { 
 	display: block; 
 	position: absolute; 
-	top: 120px; 
+	font-size: 12px;
+	top: 70px; 
 	left: 0px; 
 	width: 390px; 
 	height: 470px; 
