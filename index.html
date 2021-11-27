@@ -24,46 +24,55 @@
   <div class="flex-container">
 
     <div id="page-container" class="w3-container w3-text-white">
-     
-      
-    
-      
-      
+ 
+      <div id="header-bar" class="w3-container">
+         
         <div id="lclogo" class="w3-container">
           <img src="assets/img/lclogo_bg_155x50.png" alt="letcomm" />
         </div>
         <div id="lclogo-txt" class="w3-container">
-          <div class="w3-text-white">Endeavouring to provide a digital comminication channel for rental <i>tenants</i>.</div>      
+          <div class="w3-text-white">Endeavouring to provide a digital comminication platform for tenants</div>      
         </div>
-     
-     
         
-        
-        
+        <div id="menu-bar" class="w3-bar w3-orange">
+          <a href="#" onclick="loadPage(1, 'whoami')" class="w3-bar-item w3-button">Who am I?</a>
+          <a href="#" class="w3-bar-item w3-button">Project</a>
+          <a href="#" class="w3-bar-item w3-button">Technical</a>
+            <div class="w3-dropdown-hover w3-mobile">
+            <button class="w3-button">Progress <i class="fa fa-caret-down"></i></button>
+              <div class="w3-dropdown-content w3-bar-block w3-white">
+                <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+              </div>
+            </div>
+        </div>
+        <!--end menu-bar-->
+      </div>
+      <!--end header-bar-->
+
+            
       <div id="arena-container" class="w3-container">
 
         <div class="w3-panel w3-yellow">
           <h2 class="w3-opacity">Times have changed.</h2>
         </div>
-        
-                   
+                      
         <div class="w3-panel w3-leftbar w3-border-yellow">
           Property ownership in the UK is becoming a <i>hope</i>, rather than an <i>expectation</i>.
         </div>
         <div class="w3-panel w3-leftbar w3-border-yellow">
-          For many, unlike previous generations, renting is for <i>life</i>.
+          For many, unlike previous generations, renting is <i>forever</i>.
         </div>
 
         <div class="w3-panel w3-leftbar w3-border-yellow">
-          Currently the landlords/property management companies hold <i>all</i> the cards..this HAS to change.
+          Currently the landlords/property management companies hold <i>all</i> the cards..this needs to change.
         </div>
         
-      <button id="startbutton" class="game-button" onclick="loadPage(1, 'whoami')">find out more...</button> 
+      <button id="startbutton" class="game-button" onclick="loadPage(1, 'main')">find out more...</button> 
       </div>
       <!-- end arena-container -->
-      
-        
-      
+   
     <div id="githublink"  class="w3-panel">
         repo: <a href="https://github.com/jamespankhurst/letcomm"  target="_blank">github.com/jamespankhurst/letcomm</a>
       </div>  
