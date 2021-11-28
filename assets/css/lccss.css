@@ -60,9 +60,10 @@
 #menu-bar { 
 	display: block; 
 	position: absolute; 
-	font-size: 14px;
+	font-size: 12px;
 	top: 100px; 
-	left: 0px; 
+	left: 10px; 
+	width: 380px;
 } 
 
 #arena-container { 
