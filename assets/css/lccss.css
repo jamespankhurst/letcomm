@@ -57,20 +57,53 @@
 	left: 225px; 
 }
 
+#commslinks { 
+	display: none; 
+	position: absolute; 
+	top: 78px; 
+	left: 0px; 
+}
+
+#comms-email {
+	display: inline-block; 
+	position: absolute; 
+	font-size: 10px;
+	top: 0px; 
+	left: 0px; 
+	width: 170px;
+}
+#comms-repo {
+	display: inline-block; 
+	position: absolute; 
+	font-size: 10px;
+	top: 0px; 
+	left: 180px; 
+	width: 170px;
+}
+
 #menu-bar { 
-	display: block; 
+	display: none; 
 	position: absolute; 
 	font-size: 12px;
-	top: 110px; 
+	top: 120px; 
 	left: 10px; 
 	width: 380px;
 } 
 
-#arena-container { 
+#hp-container { 
 	display: block; 
 	position: absolute; 
 	font-size: 12px;
-	top: 170px; 
+	top: 100px; 
+	left: 0px; 
+	width: 100%; 
+	} 
+
+#arena-container { 
+	display: none; 
+	position: absolute; 
+	font-size: 12px;
+	top: 180px; 
 	left: 0px; 
 	width: 100%; 
 	} 
@@ -89,31 +122,12 @@
 	left: 50px;
 }
 
-#commslinks { 
-	display: block; 
-	position: absolute; 
-	top: 70px; 
-	left: 0px; 
-}
 
-#comms-email {
+#startbutton { 
 	display: inline-block; 
 	position: absolute; 
-	font-size: 10px;
-	top: 0px; 
-	left: 0px; 
-}
-#comms-repo {
-	display: inline-block; 
-	position: absolute; 
-	font-size: 10px;
-	top: 0px; 
-	left: 180px; 
-}
-
-#start-button { 
-	display: inline-block; 
-	position: relative; 
+	top: 400px; 
+	left: 15px;
 	}
 .start-button {
 padding-top: 0px;
