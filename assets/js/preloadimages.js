@@ -30,8 +30,8 @@ function preloadImages(array) {
 /*--- index images ---*/
 preloadImages([
 'assets/img/trackpro.png',
-'assets/img/claimtrack.jpg',
-'assets/img/lclogo_bg_310x100.png'
+'assets/img/claimtrack_logo.png',
+'assets/img/lclogo_bg_220x71.png'
 ]);
 /*---------------------------*/
 /*--- END PRE-LOAD IMAGES ---*/

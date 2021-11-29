@@ -34,7 +34,7 @@
 	display: block; 
 	position: absolute; 
 	font-size: 12px;
-	top: 0px; 
+	top: 25px; 
 	left: 0px; 
 	width: 400px; 
 	border: 0px solid #fff;
@@ -43,7 +43,7 @@
 #lclogo { 
 	display: inline-block; 
 	position: absolute; 
-	top: 10px; 
+	top: 0px; 
 	left: 0px; 
 	width: 155px; 
 	height: 60px; 
@@ -53,15 +53,15 @@
 	display: inline-block; 
 	position: absolute; 
 	font-size: 10px;
-	top: 10px; 
-	left: 165px; 
+	top: 2px; 
+	left: 225px; 
 }
 
 #menu-bar { 
 	display: block; 
 	position: absolute; 
 	font-size: 12px;
-	top: 100px; 
+	top: 110px; 
 	left: 10px; 
 	width: 380px;
 } 
@@ -70,7 +70,7 @@
 	display: block; 
 	position: absolute; 
 	font-size: 12px;
-	top: 140px; 
+	top: 170px; 
 	left: 0px; 
 	width: 100%; 
 	} 
@@ -92,7 +92,7 @@
 #commslinks { 
 	display: block; 
 	position: absolute; 
-	top: 60px; 
+	top: 70px; 
 	left: 0px; 
 }
 
