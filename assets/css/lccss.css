@@ -52,9 +52,11 @@
 #lclogo-txt { 
 	display: inline-block; 
 	position: absolute; 
-	font-size: 10px;
+	font-size: 12px;
+	line-height: 16px;
 	top: 2px; 
-	left: 225px; 
+	left: 225px;
+	width: 150px; 
 }
 
 #commslinks { 
@@ -89,6 +91,11 @@
 	left: 10px; 
 	width: 380px;
 } 
+
+#whoami {	background-color: none;	}
+#project {	background-color: none;	}
+#technial {	background-color: none;	}
+#progress {	background-color: none;	}
 
 #hp-container { 
 	display: block; 

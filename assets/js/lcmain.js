@@ -74,7 +74,39 @@ function loadPage(intSect, strFile) {
 	}
 };
 xhttp.open("GET", "assets/xhttp/" + strFile + ".html", true);
-//xhttp.onload = function () {  diceRoll(pid, rollNo); };
+xhttp.onload = function () {  activeHeader(intSect); };
 xhttp.send();
+};
+
+
+function activeHeader(intSect) {
+
+	switch(intSect) {
+		case 1: $('whoami').style.background = "red"; 
+				$('project').style.background = "none";
+				$('technical').style.background = "none"; 
+				$('progress').style.background = "none";
+		break;
+		case 2: $('whoami').style.background = "none"; 
+				$('project').style.background = "red";
+				$('technical').style.background = "none"; 
+				$('progress').style.background = "none";
+		break;
+
+		case 3: $('whoami').style.background = "none"; 
+				$('project').style.background = "none";
+				$('technical').style.background = "red"; 
+				$('progress').style.background = "none"; 
+		break;
+		
+		case 4: $('whoami').style.background = "none"; 
+				$('project').style.background = "none";
+				$('technical').style.background = "none"; 
+				$('progress').style.background = "red"; 
+		break;
+
+		default: $('whoami').style.background = "none";
+	}
+
 };
 
